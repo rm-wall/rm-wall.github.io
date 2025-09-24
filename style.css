@@ -25,6 +25,14 @@ main {
     max-width: 960px;
 }
 
+main section h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #495057;
+}
+
 #about {
     text-align: center;
     padding: 2rem 1rem;
@@ -34,10 +42,6 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#about h2 {
-    margin-top: 0;
-    color: #495057;
-}
 
 #about p {
     font-size: 1.1rem;
@@ -55,11 +59,7 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#skills h2 {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    color: #495057;
-}
+
 
 .skills-list {
     display: flex;
@@ -93,12 +93,7 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#certifications h2 {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    color: #495057;
-}
+
 
 #certifications h3 {
     text-align: center;
@@ -165,8 +160,8 @@ main {
 
 #projects h2 {
     text-align: center;
+    margin-top: 0;
     margin-bottom: 2rem;
-    font-size: 2rem;
     color: #495057;
 }
 
@@ -178,7 +173,7 @@ main {
 }
 
 .project-item {
-    background-color: #ffffff;
+    background-color: #f8f9fa;
     border: 1px solid #dee2e6;
     border-radius: 8px;
     padding: 1.5rem;
