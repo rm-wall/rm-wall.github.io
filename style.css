@@ -49,7 +49,7 @@ main {
 #skills {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #f8f9fa; /* Slightly different background to distinguish */
+    background-color: #ffffff; /* Slightly different background to distinguish */
     border-radius: 8px;
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -148,12 +148,22 @@ main {
     line-height: 1.5;
 }
 
+
+#projects {
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 #projects h2 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2rem;
     color: #495057;
 }
+
 
 .project-list {
     display: grid;
