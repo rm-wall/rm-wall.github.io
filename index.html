@@ -8,16 +8,24 @@
 </head>
 <body>
     <header>
-        <h1>My Projects</h1>
+        <h1>My Portfolio</h1>
     </header>
     <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate developer exploring the world of web technologies and AI. This page showcases some of the projects I've been working on. Feel free to explore them and check out the source code.</p>
+        </section>
         <section id="projects">
-            <h2>Project List</h2>
+            <h2>My Projects</h2>
             <div class="project-list">
                 <div class="project-item">
-                                        <h3>Gomoku</h3>
-                                        <p>Crafted with the help of AI.</p>
-                                        <a href="https://rm-wall.github.io/gomoku/" target="_blank">Play Online</a>                </div>
+                        <h3>Gomoku</h3>
+                        <p>Crafted with the help of AI.</p>
+                        <div class="project-links">
+                            <a href="https://rm-wall.github.io/gomoku/" target="_blank">Play Online</a>
+                            <a href="https://github.com/rm-wall/gomoku" target="_blank" class="btn-secondary">Source Code</a>
+                        </div>
+                </div>
                 <div class="project-item project-item-placeholder">
                     <h3>Coming Soon</h3>
                     <p>More projects will be added here.</p>
@@ -25,8 +33,98 @@
                 <!-- Add more projects here -->
             </div>
         </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill-item"><img src="images/go.svg" alt="Go icon"> Go</span>
+                <span class="skill-item"><img src="images/mysql.svg" alt="MySQL icon"> MySQL</span>
+                <span class="skill-item"><img src="images/aws.webp" alt="AWS icon"> AWS</span>
+                <span class="skill-item"><img src="images/kubernetes.svg" alt="Kubernetes icon"> Kubernetes</span>
+                <span class="skill-item"><img src="images/typescript.svg" alt="TypeScript icon"> TypeScript</span>
+                <span class="skill-item"><img src="images/terraform.svg" alt="Terraform icon"> Terraform</span>
+                <span class="skill-item"><img src="images/bash.svg" alt="Bash icon"> Bash</span>
+                <span class="skill-item"><img src="images/linux.svg" alt="Linux icon"> Linux</span>
+                <span class="skill-item"><img src="images/python.svg" alt="Python icon"> Python</span>
+                <span class="skill-item"><img src="images/angular.svg" alt="Angular icon"> Angular</span>
+                <span class="skill-item"><img src="images/react.svg" alt="React icon"> React</span>
+                <span class="skill-item"><img src="images/shellscript.svg" alt="ShellScript icon"> ShellScript</span>
+                <span class="skill-item"><img src="images/postgresql.svg" alt="PostgreSQL icon"> PostgreSQL</span>
+                <span class="skill-item"><img src="images/slack.svg" alt="Slack icon"> Slack</span>
+                <span class="skill-item"><img src="images/ansible.svg" alt="Ansible icon"> Ansible</span>
+                <span class="skill-item"><img src="images/cplusplus.svg" alt="C++ icon"> C++</span>
+                <span class="skill-item"><img src="images/c.svg" alt="C icon"> C</span>
+                <span class="skill-item"><img src="images/kotlin.svg" alt="Kotlin icon"> Kotlin</span>
+                <span class="skill-item"><img src="images/jenkins.svg" alt="Jenkins icon"> Jenkins</span>
+                <span class="skill-item"><img src="images/github.svg" alt="GitHub icon"> GitHub</span>
+                <span class="skill-item"><img src="images/grafana.svg" alt="Grafana icon"> Grafana</span>
+                <span class="skill-item"><img src="images/java.svg" alt="Java icon"> Java</span>
+                <span class="skill-item"><img src="images/spring.svg" alt="Spring icon"> Spring</span>
+            </div>
+        </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <h3>AWS</h3>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <img src="images/cert-aws-sap.png" alt="AWS SAP Badge">
+                    <span>AWS Certified Solutions Architect - Professional</span>
+                </div>
+                <div class="cert-item">
+                    <img src="images/cert-aws-ans.png" alt="AWS ANS Badge">
+                    <span>AWS Certified Advanced Networking - Specialty</span>
+                </div>
+                <div class="cert-item">
+                    <img src="images/cert-aws-scs.png" alt="AWS SCS Badge">
+                    <span>AWS Certified Security - Specialty</span>
+                </div>
+                <div class="cert-item">
+                    <img src="images/cert-aws-soa.png" alt="AWS SOA Badge">
+                    <span>AWS Certified SysOps Administrator - Associate</span>
+                </div>
+                <div class="cert-item">
+                    <img src="images/cert-aws-saa.png" alt="AWS SAA Badge">
+                    <span>AWS Certified Solutions Architect - Associate</span>
+                </div>
+            </div>
+            <h3>CompTIA</h3>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <img src="images/cert-cysa-plus.png" alt="CompTIA CySA+ Badge">
+                    <span>CompTIA Cybersecurity Analyst (CySA+)</span>
+                </div>
+                <div class="cert-item">
+                    <img src="images/cert-sec-plus.png" alt="CompTIA Security+ Badge">
+                    <span>CompTIA Security+</span>
+                </div>
+                <div class="cert-item">
+                    <img src="images/cert-comptia-csap.png" alt="CompTIA CSAP Badge">
+                    <span>CompTIA Security Analytics Professional</span>
+                </div>
+            </div>
+            <h3>Kubernetes</h3>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <img src="images/cert-cks.png" alt="CKS Badge">
+                    <span>Certified Kubernetes Security Specialist (CKS)</span>
+                </div>
+                <div class="cert-item">
+                    <img src="images/cert-cka.png" alt="CKA Badge">
+                    <span>Certified Kubernetes Administrator (CKA)</span>
+                </div>
+            </div>
+            <h3>ITIL</h3>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <img src="images/cert-itil.png" alt="ITIL 4 Foundation Badge">
+                    <span>ITIL 4 Foundation (Full Score)</span>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
+        <div class="social-links">
+            <a href="https://github.com/rm-wall" target="_blank">GitHub</a>
+        </div>
         <p>&copy; 2025</p>
     </footer>
 </body>
