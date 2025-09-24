@@ -148,6 +148,12 @@ main {
     line-height: 1.5;
 }
 
+#certifications hr {
+    border: 0;
+    height: 1px;
+    background-color: #dee2e6;
+    margin: 3rem 0;
+}
 
 #projects {
     padding: 2rem 1rem;
