@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
     <header>
         <h1>My Portfolio</h1>
     </header>
@@ -157,5 +160,34 @@
         </div>
         <p>&copy; 2025</p>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var progressBar = document.getElementById("myBar");
+            var progressContainer = progressBar.parentNode;
+
+            // Function to update the scroll bar
+            function updateScrollBar() {
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                var scrolled = (winScroll / height) * 100;
+
+                progressBar.style.width = scrolled + "%";
+
+                if (winScroll === 0) {
+                    progressContainer.classList.add("hidden");
+                } else {
+                    progressContainer.classList.remove("hidden");
+                }
+            }
+
+            // Listen for scroll events
+            window.onscroll = function() {
+                updateScrollBar();
+            };
+
+            // Set the initial state
+            updateScrollBar();
+        });
+    </script>
 </body>
 </html>
