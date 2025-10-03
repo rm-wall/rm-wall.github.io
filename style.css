@@ -271,6 +271,10 @@ main section h2 {
     text-align: center;
 }
 
+.cert-item .cert-text {
+    display: inline;
+}
+
 #certifications hr {
     border: 0;
     height: 1px;
