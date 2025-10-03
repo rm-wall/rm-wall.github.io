@@ -215,6 +215,12 @@ main section h2 {
     max-width: 960px;
 }
 
+.cert-break {
+    width: 100%;
+    grid-column: 1 / -1;
+    height: 0;
+}
+
 .cert-item {
     display: flex;
     flex-direction: column;
@@ -262,6 +268,7 @@ main section h2 {
     justify-content: center;
     height: 3.8rem; /* Reserve space for about 2-3 lines of text */
     line-height: 1.5;
+    text-align: center;
 }
 
 #certifications hr {
