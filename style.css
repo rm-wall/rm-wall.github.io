@@ -155,12 +155,38 @@ main section h2 {
 
 .skill-item img {
     height: 1.2em;
-    filter: brightness(0) saturate(100%) invert(37%) sepia(93%) saturate(1352%) hue-rotate(193deg) brightness(103%) contrast(101%);
-    transition: filter 0.3s;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+/* Blue to purple gradient */
+.skill-item:nth-child(4n+1) img {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(200deg) brightness(97%) contrast(97%); /* Deep blue */
+}
+
+.skill-item:nth-child(4n+2) img {
+    filter: brightness(0) saturate(100%) invert(37%) sepia(93%) saturate(1352%) hue-rotate(193deg) brightness(103%) contrast(101%); /* Blue */
+}
+
+.skill-item:nth-child(4n+3) img {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(68%) saturate(2107%) hue-rotate(228deg) brightness(96%) contrast(95%); /* Blue-purple */
+}
+
+.skill-item:nth-child(4n+4) img {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(73%) saturate(3511%) hue-rotate(274deg) brightness(93%) contrast(101%); /* Purple */
+}
+
+.skill-item img.no-filter {
+    filter: none !important;
 }
 
 .skill-item:hover img {
-    filter: brightness(0) saturate(100%) invert(50%) sepia(100%) saturate(2000%) hue-rotate(180deg) brightness(110%) contrast(105%);
+    transform: scale(1.2);
+    filter: brightness(1.2) saturate(150%) !important;
+}
+
+.skill-item:hover img.no-filter {
+    filter: none !important;
+    opacity: 0.8;
 }
 
 #certifications {
