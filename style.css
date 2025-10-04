@@ -232,7 +232,7 @@ main section h2 {
     text-align: center;
     gap: 0.75rem;
     background-color: #f8f9fa;
-    padding: 1.25rem;
+    padding: 1rem;
     border: 1px solid #dee2e6;
     border-radius: 8px;
     font-size: 0.9rem;
@@ -272,6 +272,8 @@ main section h2 {
     height: 3.8rem; /* Reserve space for about 2-3 lines of text */
     line-height: 1.5;
     text-align: center;
+    width: 100%;
+    padding: 0 0.15rem;
 }
 
 .cert-item .cert-text {
